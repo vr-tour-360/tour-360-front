@@ -14,7 +14,7 @@ import {
 } from '@material-ui/core';
 import { intlShape, injectIntl } from 'react-intl';
 import DialogTitleWithClose from './DialogTItleWithClose';
-import { MapType } from '../../../../backend/src/models/interfaces';
+import { MapType } from 'tour-360-backend/backend/src/models/interfaces';
 
 interface CreateTourDialogProps {
     intl: any;

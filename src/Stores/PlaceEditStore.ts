@@ -9,7 +9,7 @@ import {
     RunVideoWidget, 
     HintWidget,
     ImageWidget
-} from '../../../backend/src/models/interfaces';
+} from 'tour-360-backend/src/models/interfaces';
 
 export default class PlaceEditStore {
     saveResult: any;

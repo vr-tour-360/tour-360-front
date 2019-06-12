@@ -42,7 +42,7 @@ import {
     RunVideoWidget as IRunVideoWidget,
     HintWidget as IHintWidget,
     ImageWidget as IImageWidget
-} from '../../../../backend/src/models/interfaces';
+} from 'tour-360-backend/src/models/interfaces';
 import { PlaceDesignerToolBarItemType } from './PlaceDesignerToolBar';
 import { createError } from './Widgets/utils';
 

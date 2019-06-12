@@ -16,7 +16,7 @@ import {
     RunVideoWidget as IRunVideoWidget,
     HintWidget as IHintWidget,
     ImageWidget as IImageWidget
-} from '../../../../../../backend/src/models/interfaces';
+} from 'tour-360-backend/src/models/interfaces';
 
 const styles = theme => ({
     root: {

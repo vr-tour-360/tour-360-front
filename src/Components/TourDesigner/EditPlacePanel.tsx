@@ -9,7 +9,7 @@ import { EditPlace } from './../../Stores'
 import SoundEditor from './SoundEditor';
 import { WidgetList, IconEditor, Category } from './../Common';
 import { intlShape, injectIntl } from 'react-intl';
-import { BaseWidget } from '../../../../backend/src/models/interfaces';
+import { BaseWidget } from 'tour-360-backend/src/models/interfaces';
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
     root: {

@@ -11,7 +11,7 @@ import {
     Delete as DeleteIcon,
 } from '@material-ui/icons';
 import { withStyles } from '@material-ui/core/styles';
-import { BaseWidget } from '../../../../../../backend/src/models/interfaces';
+import { BaseWidget } from 'tour-360-backend/src/models/interfaces';
 import { getIcon } from '../../../PlaceDesigner/Widgets/utils';
 
 const styles = theme => ({

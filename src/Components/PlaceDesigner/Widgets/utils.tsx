@@ -6,7 +6,7 @@ import {
     Image as ImageIcon,
     PlayCircleFilledOutlined,
 } from '@material-ui/icons';
-import { WidgetType } from '../../../../../backend/src/models/interfaces';
+import { WidgetType } from 'tour-360-backend/src/models/interfaces';
 
 export function getIcon(widgetType: WidgetType) {
     switch (widgetType) {

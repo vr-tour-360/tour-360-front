@@ -9,7 +9,7 @@ import {
     ThreeSixty as ThreeSixtyIcon,
 } from '@material-ui/icons';
 import PlaceListIcon from './PlaceListIcon';
-import { PlaceDto } from '../../../../../../backend/src/models/interfaces';
+import { PlaceDto } from 'tour-360-backend/src/models/interfaces';
 import { BACKEND_URL } from '../../../../config';
 
 const styles: StyleRulesCallback = (theme: Theme) => ({

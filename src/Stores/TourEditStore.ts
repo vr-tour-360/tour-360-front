@@ -8,7 +8,7 @@ import {
     UserStore,
     RootStore,
 } from './';
-import { PlaceDto, PlaceDetailDto } from '../../../backend/src/models/interfaces';
+import { PlaceDto, PlaceDetailDto } from 'tour-360-backend/src/models/interfaces';
 
 export default class TourEditStore {
     readonly rootStore: RootStore;

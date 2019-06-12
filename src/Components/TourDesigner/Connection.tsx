@@ -4,7 +4,7 @@ import blue from '@material-ui/core/colors/blue';
 import green from '@material-ui/core/colors/green';
 import { withStyles, WithStyles, Theme } from '@material-ui/core/styles';
 import { Polyline } from 'react-leaflet';
-import { ConnectionDto } from '../../../../backend/src/models/interfaces';
+import { ConnectionDto } from 'tour-360-backend/src/models/interfaces';
 
 const styles = (theme: Theme) => ({
 

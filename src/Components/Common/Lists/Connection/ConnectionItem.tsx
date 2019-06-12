@@ -14,7 +14,7 @@ import {
 } from '@material-ui/icons';
 import Typography from '@material-ui/core/Typography';
 import grey from '@material-ui/core/colors/grey';
-import { ConnectionDetailDto } from '../../../../../../backend/src/models/interfaces';
+import { ConnectionDetailDto } from 'tour-360-backend/src/models/interfaces';
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
     coordinateItem: {

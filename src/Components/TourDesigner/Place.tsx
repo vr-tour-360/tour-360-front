@@ -2,7 +2,7 @@ import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
 import { Tooltip, Marker } from 'react-leaflet';
 import L from 'leaflet';
-import { PlaceDetailDto } from '../../../../backend/src/models/interfaces';
+import { PlaceDetailDto } from 'tour-360-backend/src/models/interfaces';
 import { BACKEND_URL } from '../../config';
 
 interface PlaceProps {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles, Theme, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
-import { WidgetType } from '../../../../backend/src/models/interfaces';
+import { WidgetType } from 'tour-360-backend/src/models/interfaces';
 import { getIcon, createError } from './Widgets/utils';
 import {
     PanTool as PanToolIcon

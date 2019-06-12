@@ -6,7 +6,7 @@ import L from 'leaflet';
 import { Connection, Place, } from '.';
 import grey from '@material-ui/core/colors/grey';
 import { TourDetail } from '../../Stores';
-import { PlaceDetailDto } from '../../../../backend/src/models/interfaces';
+import { PlaceDetailDto } from 'tour-360-backend/src/models/interfaces';
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
     root: {

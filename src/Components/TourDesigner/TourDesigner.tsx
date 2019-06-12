@@ -30,7 +30,7 @@ import { TourMap } from '.';
 import EditPlacePanel from './EditPlacePanel';
 import { grey } from '@material-ui/core/colors';
 import { TourEditStore, RootStore } from './../../Stores';
-import { MapEditModes } from '../../../../backend/src/models/interfaces';
+import { MapEditModes } from 'tour-360-backend/src/models/interfaces';
 import { RouteComponentProps } from "react-router";
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
