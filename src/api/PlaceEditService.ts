@@ -6,7 +6,7 @@ import {
     RunVideoWidget,
     BaseWidget,
     ImageWidget,
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export function beginEditing(tourId: string, placeId: string) {
     return TourEditService.beginEditing(tourId).then((resp) => {

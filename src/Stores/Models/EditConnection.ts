@@ -1,5 +1,5 @@
 import { decorate, observable } from "mobx";
-import { ConnectionDto, PlaceDto } from "../../../../backend/src/models/interfaces";
+import { ConnectionDto, PlaceDto } from "tour-360-backend/src/models/interfaces";
 
 export default class EditConnection {
     readonly id: string;

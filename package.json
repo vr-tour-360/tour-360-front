@@ -35,6 +35,7 @@
     "react-leaflet": "^2.2.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",
+    "tour-360-backend": "git+https://github.com/vr-tour-360/tour-360-back.git",
     "typescript": "^3.4.5"
   },
   "scripts": {

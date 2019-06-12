@@ -6,7 +6,7 @@ import { UserService } from '../api';
 import { RootStore } from "./";
 import {
     UserDto
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export default class UserStore {
     signInResult: IPromiseBasedObservable<any>;

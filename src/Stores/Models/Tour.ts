@@ -1,7 +1,7 @@
 import { decorate, observable, computed, action } from "mobx";
 import {
     TourDto,
-} from "./../../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 import { PlaceService } from "../../api";
 import { UserStore } from "..";
 import { BACKEND_URL } from "../../config";

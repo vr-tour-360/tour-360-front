@@ -4,7 +4,7 @@ import { Tour, TourDetail, RootStore } from '.';
 import UserStore from './UserStore';
 import {
     TourDto,
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export default class TourStore {
     selectedTour: TourDetail | null;

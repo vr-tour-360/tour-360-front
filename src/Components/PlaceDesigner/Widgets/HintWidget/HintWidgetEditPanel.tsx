@@ -6,7 +6,7 @@ import { TextField, Button } from '@material-ui/core';
 import { withStyles, WithStyles, StyleRulesCallback, Theme } from '@material-ui/core/styles';
 import HintWidgetShape from './HintWidgetShape';
 import { HEIGHT, WIDTH } from '../../utils';
-import { HintWidget as HintWidgetModel } from "../../../../../../backend/src/models/interfaces";
+import { HintWidget as HintWidgetModel } from "tour-360-backend/src/models/interfaces";
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
     root: {

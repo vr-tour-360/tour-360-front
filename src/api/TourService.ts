@@ -2,7 +2,7 @@ import client from './client';
 import {
     TourDto,
     TourDetailDto,
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export function getAllPublic() {
     return client.get<{ tours: TourDto[] }>("/api/public-tours");

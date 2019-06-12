@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import { withStyles, WithStyles, StyleRulesCallback, Theme } from '@material-ui/core/styles';
 import { getScreenCoordinates } from '../../utils';
 import TextWidgetShape from "./TextWidgetShape";
-import { TextWidget as TextWidgetModel } from "../../../../../../backend/src/models/interfaces";
+import { TextWidget as TextWidgetModel } from "tour-360-backend/src/models/interfaces";
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
     root: {

@@ -6,7 +6,7 @@ import { withStyles, WithStyles, StyleRulesCallback, Theme } from '@material-ui/
 import { Image as ImageIcon } from '@material-ui/icons'
 import { getScreenCoordinates } from '../../utils';
 import ImageWidgetShape from "./ImageWidgetShape";
-import { ImageWidget as ImageWidgetModel } from "../../../../../../backend/src/models/interfaces";
+import { ImageWidget as ImageWidgetModel } from "tour-360-backend/src/models/interfaces";
 import { BACKEND_URL } from '../../../../config';
 
 const size = 30;

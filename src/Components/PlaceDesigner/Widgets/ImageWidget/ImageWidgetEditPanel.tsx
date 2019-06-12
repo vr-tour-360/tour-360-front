@@ -12,7 +12,7 @@ import {
     Category
 } from '../../../Common';
 import ImageWidgetShape from "./ImageWidgetShape";
-import { ImageWidget } from "../../../../../../backend/src/models/interfaces";
+import { ImageWidget } from "tour-360-backend/src/models/interfaces";
 import { UploadImageDialog } from '../../../Dialogs';
 import EditImage from '../../../EditImage';
 import { BACKEND_URL } from '../../../../config';

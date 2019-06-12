@@ -4,7 +4,7 @@ import { VR_URL } from '../config';
 import {
     PlaceDetailDto,
     ConnectionDetailDto
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export function get(sessionId: string) {
     return client.get(`/api/tour-edit/${sessionId}/get`);

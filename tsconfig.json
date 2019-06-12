@@ -33,7 +33,6 @@
   "types": [],
   "include": [
     "./src/**/*.ts",
-    "./src/**/*.js",
-    "./../backend/public/src/models/interfaces/**/*.ts",
+    "./src/**/*.js"
   ]
 }

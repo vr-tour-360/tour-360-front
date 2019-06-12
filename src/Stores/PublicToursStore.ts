@@ -3,7 +3,7 @@ import { TourService } from '../api';
 import { Tour, TourDetail, RootStore } from '.';
 import {
     TourDto,
-} from "./../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 
 export default class PublicToursStore {
     selectedTour: TourDetail | null;

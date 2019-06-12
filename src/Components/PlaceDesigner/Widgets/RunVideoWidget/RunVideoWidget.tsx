@@ -6,7 +6,7 @@ import { withStyles, WithStyles, StyleRulesCallback, Theme } from '@material-ui/
 import { PlayCircleFilledOutlined } from '@material-ui/icons'
 import { getScreenCoordinates } from '../../utils';
 import RunVideoShape from "./RunVideoShape";
-import { RunVideoWidget as RunVideoWidgetModel } from "../../../../../../backend/src/models/interfaces";
+import { RunVideoWidget as RunVideoWidgetModel } from "tour-360-backend/src/models/interfaces";
 
 const size = 30;
 const styles: StyleRulesCallback = (theme: Theme) => ({

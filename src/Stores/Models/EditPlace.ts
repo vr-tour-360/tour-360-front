@@ -4,7 +4,7 @@ import {
     PlaceDetailDto,
     BaseWidget,
     ImageFile,
-} from "./../../../../backend/src/models/interfaces";
+} from "tour-360-backend/src/models/interfaces";
 import { BACKEND_URL } from "../../config";
 
 class EditPlace {

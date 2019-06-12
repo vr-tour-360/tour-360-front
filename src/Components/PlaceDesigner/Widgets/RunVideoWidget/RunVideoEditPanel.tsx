@@ -16,7 +16,7 @@ import {
     PanoVideoEditor,
 } from './../../../Common';
 import RunVideoShape from "./RunVideoShape";
-import { RunVideoWidget } from "../../../../../../backend/src/models/interfaces";
+import { RunVideoWidget } from "tour-360-backend/src/models/interfaces";
 import { BACKEND_URL } from '../../../../config';
 
 const styles: StyleRulesCallback = (theme: Theme) => ({
