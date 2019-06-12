@@ -1,0 +1,59 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blackbox-vision/mui-audio-player": "^2.1.0",
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "@types/jest": "^24.0.12",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "equirect-cubemap-faces-js": "^2.3.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "html-to-draftjs": "^1.4.0",
+    "jwt-decode": "^2.2.0",
+    "leaflet": "^1.4.0",
+    "mobx": "^5.9.0",
+    "mobx-localstorage": "^2.0.0-alpha.1",
+    "mobx-react": "^5.4.3",
+    "mobx-utils": "^5.2.0",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.7.0",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-google-recaptcha": "^1.0.5",
+    "react-intl": "^2.8.0",
+    "react-leaflet": "^2.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react-router": "^5.0.1",
+    "@types/react-router-dom": "^4.3.3"
+  }
+}
